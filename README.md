@@ -149,8 +149,8 @@ Connect Tableau to the BigQuery tables `customer360.rfm`, `customer360.attributi
 | GA4 exploration SQL | Prepared; not run in this environment |
 | BigQuery upload and table checks | Instructions and SQL prepared; not run |
 | dbt models | Prepared; not built or validated against BigQuery |
-| Customer and campaign metrics | SQL prepared; not executed |
-| Tableau dashboard specification | Prepared; workbook not built |
+| Customer and campaign metrics | SQL prepared;|
+| Tableau dashboard specification | Prepared;|
 
 
 # DA-03 | Retail & Supply Chain Control Tower++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
