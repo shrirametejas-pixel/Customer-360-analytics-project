@@ -10,8 +10,8 @@ A project that brings together public GA4 ecommerce data and a clearly labeled s
 
 ## What I did
 
-1. Planned the data sources.** Selected Google’s public, obfuscated GA4 ecommerce sample and designed synthetic CRM, advertising, touchpoint, and order data.
-2. Generated synthetic data.** Created 1,000 fictional customer profiles and identity links, 120 monthly campaign-spend rows, 2,437 touchpoints, and 2,394 orders. All generated records are labeled synthetic. They do not represent real people, customers, or company performance.
+1. Planned the data sources.Selected Google’s public, obfuscated GA4 ecommerce sample and designed synthetic CRM, advertising, touchpoint, and order data.
+2. Generated synthetic data. Created 1,000 fictional customer profiles and identity links, 120 monthly campaign-spend rows, 2,437 touchpoints, and 2,394 orders. All generated records are labeled synthetic. They do not represent real people, customers, or company performance.
 3. Prepared identity mapping.** Added a demonstration bridge from each synthetic web user ID to a synthetic CRM customer ID. This is a simple portfolio example, not production identity resolution.
 4. Prepared dbt-style models.** Wrote SQL models for sessions, orders, and customer profiles under `dbt/models/`.
 5. Prepared analytics SQL.** Added queries for RFM scoring, an illustrative CLV proxy, first-touch, last-touch, linear and time-decay attribution, campaign ROI, and CAC.
